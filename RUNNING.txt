@@ -1,0 +1,16 @@
+Atlas + Global Health Data Analysis dataset
+1. Clone the repository
+2. Push the datasets_input/ and csv_out/ folders to HDFS and chmod 755 the folders
+3. spark-submit main.py datasets_input/ datasets_output/
+4. Download the contents of the csv_out/ folder
+5. Edit the path to the csv_out folder in the Visualization notebook
+6. Run the Visualization notebook
+
+Topic modeling
+1. Go into topic-modeling
+2. Refer to README.txt
+
+Flask App
+1. cd into MH Flask
+2. Clone it and pip install the requiremenets.txt
+3. Run the command 'python run.py' to get the website going live.
